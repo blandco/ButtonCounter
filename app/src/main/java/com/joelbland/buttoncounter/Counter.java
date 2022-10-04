@@ -1,7 +1,7 @@
 package com.joelbland.buttoncounter;
 
 public class Counter {
-    public static Integer doubleMyValue(Integer originalValue) {
+    public static Integer addOne(Integer originalValue) {
         return originalValue + 1;
     }
 }

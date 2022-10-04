@@ -14,4 +14,5 @@ public class DataActivity extends AppCompatActivity {
     public void goBack( View v ) {
         this.finish( );
     }
+
 }
