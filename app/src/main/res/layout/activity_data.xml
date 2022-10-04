@@ -3,17 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/buttonMain"
+        android:id="@+id/buttonBack"
         android:layout_width="183dp"
         android:layout_height="101dp"
         android:layout_marginStart="112dp"
         android:layout_marginTop="252dp"
-        android:backgroundTint="@color/teal_700"
-        android:text="0"
+        android:backgroundTint="@color/red"
+        android:text="BACK"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
