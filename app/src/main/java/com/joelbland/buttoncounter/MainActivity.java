@@ -1,7 +1,7 @@
 package com.joelbland.buttoncounter;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.os.Bundle;
@@ -14,11 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button buttonMain = findViewById(R.id.buttonMain);
-        buttonMain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Call the secondary activity here
-            }
-        });
+
+    }
+
+    public void modifyData( View v ) {
+        Intent myIntent = new Intent( this, DataActivity.class );
+        this.startActivity( myIntent );
     }
 }
